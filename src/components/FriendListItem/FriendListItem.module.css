@@ -1,0 +1,23 @@
+.friend {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.friend > img {
+  margin: 0 auto;
+}
+
+.friendName {
+  margin: 6px 0;
+  text-align: center;
+  font-size: 24px;
+}
+
+.status {
+  color: red;
+}
+
+.isOnline {
+  color: green;
+}

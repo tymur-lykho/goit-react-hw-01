@@ -1,0 +1,57 @@
+.profile {
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 30px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 16px;
+}
+
+.userImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #252525;
+  margin: 0 auto;
+}
+
+.userName {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.grayText {
+  opacity: 0.5;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #9b9b9ba9;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  padding: 16px 0;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-color: #444444;
+}
+.stats-item:last-child {
+  border-right: none;
+}
+
+.stats-counter {
+  font-weight: 600;
+}

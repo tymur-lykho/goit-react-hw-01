@@ -1,0 +1,11 @@
+.friends {
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.friends > li {
+  flex-grow: 1;
+}
